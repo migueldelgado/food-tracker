@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+}
+
+.calendar-header {
+  display: flex;
+}
+
+.calendar-header > div {
+  flex: 1;
+}
+
+.calendar-header-item {
+  flex: 1;
+}
+
+.calendarTitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.calendarDayTitle {
+  flex: 1;
+  border-bottom: 1px solid black;
+}
+
+.calendarDay {
+  flex: 1;
+  padding: 1rem 1rem;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.calendarDay:hover {
+  background-color: rgb(0, 255, 234);
+}
+
+.calendarDay:first-child {
+  border-left: 1px solid black;
+}

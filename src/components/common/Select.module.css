@@ -1,0 +1,42 @@
+.custom-select {
+  cursor: pointer;
+  z-index: 5;
+  position: relative;
+}
+
+.custom-select-input {
+  display: flex;
+  justify-content: center;
+  background: grey;
+  padding: 1rem;
+}
+
+.custom-select-input span {
+  margin-right: 0.5rem;
+}
+
+.option-list-container {
+  background-color: grey;
+  margin-top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.option-list {
+  margin: 0;
+  padding: 0;
+}
+
+.option-item {
+  list-style: none;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.option-item:first-child {
+  border-top: 1px solid black;
+}
+
+.option-item:hover {
+  background-color: cadetblue;
+}
